@@ -1,0 +1,23 @@
+{
+  "name": "agentic-pipeline",
+  "version": "1.0.0",
+  "description": "Production-grade Agentic AI pipeline — GPT-4o + TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "eval": "ts-node src/evaluation/benchmark.ts",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "openai": "^4.47.1",
+    "zod": "^3.23.8",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5",
+    "vitest": "^1.6.0"
+  }
+}
