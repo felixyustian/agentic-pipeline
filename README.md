@@ -192,3 +192,7 @@ Before deploying to production, replace the following stubs:
 - [ ] **Webhook** — point `HITL_WEBHOOK_URL` at your real ops platform (Slack, PagerDuty, internal)
 - [ ] **Auth** — add API key rotation and rate limiting to the LLM client
 - [ ] **Observability** — instrument `agent-runner.ts` with OpenTelemetry spans
+
+## ⚖️ License & Copyright
+
+*   **Implementation Copyright:** © 2026 [Felix Yustian Setiono](https://linkedin.com/in/felixsetiono). The entire system architecture, API source code, and experimental analysis documents within this repository are the original intellectual property of the author.
